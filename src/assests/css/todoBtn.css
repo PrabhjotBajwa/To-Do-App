@@ -1,0 +1,27 @@
+.btn-area {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: center;
+    margin-top: 15px;
+    margin-bottom: 25px;
+  }
+  
+  .todo-btn {
+    border: none;
+    background-color: #f8d146;
+    color: #000000;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .active {
+    border: none;
+    background-color: #72c376;
+    color: #ffffff;
+    border-radius: 4px;
+    padding: 10px;
+    cursor: pointer;
+  }
+  

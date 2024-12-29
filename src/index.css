@@ -1,0 +1,17 @@
+html, body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Covers full height */
+}
+
+#root {
+  height: 100%; /* Root container spans full page */
+  background-color: #8fd5d5; /* Match body background color */
+}
+
+/* Remove any overriding background from other elements */
+.header, .sidebar, .main-container {
+  background-color: transparent !important;
+}
+

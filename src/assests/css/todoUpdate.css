@@ -1,0 +1,44 @@
+.edit-wraper {
+    background-color: #d6a9ef;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 8px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .edit-wraper .input-update {
+    padding: 8px;
+    border: none;
+    background-color: #fafa2f;
+    color: #000000;
+    width: 25em;
+    margin: 1em;
+    border-radius: 4px;
+  }
+  
+  .edit-wraper .input-update::placeholder {
+    color: #000000;
+  }
+  
+  .edit-wraper .input-update:focus {
+    outline: 2px solid #72c376;
+  }
+  
+  .edit-wraper .btn-update {
+    background-color: #72c376;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    padding: 10px;
+    width: 100px;
+    cursor: pointer;
+    text-align: center;
+    align-self: flex-end;
+  }
+  
+  .edit-wraper .btn-update:hover {
+    background-color: #11a478;
+  }
+  

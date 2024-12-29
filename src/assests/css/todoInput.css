@@ -1,0 +1,76 @@
+.todo-input {
+    background-color: #f4e91c;
+    padding: 2%;
+    width: fit-content;
+    margin: 3% auto 0 auto;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+    display: block;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    max-height: fit-content;
+    border: 2px solid #000000;
+  }
+  
+  .input-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 25px;
+  }
+  
+  .input-item label {
+    font-weight: 700;
+    font-size: 16px;
+    color: #333333; /* Darker label color */
+    margin-bottom: 5px;
+  }
+  
+  .input-item .input {
+    padding: 12px;
+    border: 1px solid #dddddd; /* Light gray border */
+    background-color: #f9f9f9; /* Slightly off-white input background */
+    color: #333333; /* Darker text */
+    width: 25em;
+    border-radius: 5px; /* Rounded corners */
+    font-size: 14px;
+    font-family: "Arial", sans-serif;
+  }
+  
+  .input-item .input:focus {
+    outline: none;
+    border: 1px solid #72c376; /* Green border on focus */
+    box-shadow: 0 0 5px rgba(114, 195, 118, 0.5);
+  }
+  
+  .input-item .input::placeholder {
+    color: #aaaaaa; /* Lighter placeholder color */
+  }
+  
+  .input-item textarea {
+    height: 100px;
+    resize: none;
+    font-family: "Arial", sans-serif;
+  }
+  
+  .input-item .add-todo {
+    background-color: #72c376; /* Green button */
+    color: #ffffff;
+    border-radius: 5px;
+    margin-top: 15px;
+    padding: 12px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .input-item .add-todo:hover {
+    background-color: #11a478; /* Darker green on hover */
+  }
+  
+  .input-item .add-todo:focus {
+    outline: none;
+  }
+  
